@@ -25,11 +25,10 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Representando o logo
-            const Icon(
-              Icons.settings,
-              size: 100,
-              color: Colors.white,
+            // Logo inserida aqui no lugar do ícone
+            Image.asset(
+              'assets/images/logo.png', // Lembre-se de mudar para .jpg se tiver salvo como jpg
+              width: 150,
             ),
             const SizedBox(height: 20),
             const Text(
